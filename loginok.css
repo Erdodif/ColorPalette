@@ -1,0 +1,78 @@
+.reglog {
+    box-sizing: border-box;
+    background: var(--s-background);
+    color: var(--s-secondary);
+}
+.reglog h1 {
+   padding-top: .6em;
+    color: #000;
+}
+.reglog > div {
+    background: var(--s-primary);
+    margin-inline: auto;
+    width: min(50rem,100%);
+    border-radius: .5em;
+}
+.reglog * {
+    display: block;
+    margin-inline: auto;
+    text-align: center;
+}
+.reglog input {
+    background: var(--s-primary-variant);
+    border: .15em solid var(--s-secondary-variant);
+    margin-block-end: 1em;
+    border-radius: 1em;
+    width: min(70%,15rem);
+    color: var(--s-on-primary);
+}
+.reglog input:hover {
+    border-color: var(--s-secondary);
+}
+.reglog label {
+    font-size: max(.8em,1.5rem);
+    padding-block: .2em;
+    margin-block: .2em;
+    user-select: none;
+    cursor: pointer;
+}
+.reglog span {
+    display: flex;
+    align-items: center;
+}
+.reglog span * {
+    margin-inline: unset;
+    display: inline;
+    width: unset;
+}
+#benthagy1_label {
+    user-select: none;
+    cursor: pointer;
+    font-size: max(.625em,1.2rem);
+    margin-left: auto;
+    margin-right: 1em;
+    color: var(--s-secondary);
+    margin-bottom: .5em;
+}
+#benthagy1_label:hover {
+    color: var(--s-secondary-variant);
+}
+#benthagy1 {
+    margin-right: auto;
+    margin-left: 1em;
+}
+.reglog button {
+    margin-bottom: 1em;
+    width: min(60%,14rem);
+    border-radius: 10em;
+    color: var(--s-on-secondary);
+    background: var(--s-secondary-variant);
+    font-weight: bold;
+    font-size: max(.625em,1.2rem);
+    padding-block: .5em;
+    border: .15em solid var(--s-secondary);
+}
+.reglog button:hover {
+    background: var(--s-secondary);
+    border-color: var(--s-secondary-variant);
+}
