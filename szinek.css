@@ -1,0 +1,65 @@
+:root {
+    --s-primary: #6200EE;
+    --s-primary-variant: #3700B3;
+    --s-secondary: #03DAC6;
+    --s-secondary-variant: #018786;
+    --s-background: #FFFFFF;
+    --s-surface: #FFFFFF;
+    --s-error: #B00020;
+    --s-on-primary: #FFFFFF;
+    --s-on-secondary: #000000;
+    --s-on-background: #000000;
+    --s-on-surface: #000000;
+    --s-on-error: #FFFFFF;
+}
+body {
+    background: #6b6b6b;
+}
+#primary, .primary{
+    background: var(--s-primary);
+    color: var(--s-on-primary);
+}
+#primary-variant, .primary-variant {
+    background: var(--s-primary-variant);
+    color: var(--s-on-primary);
+}
+#secondary, .secondary {
+    background: var(--s-secondary);
+    color: var(--s-on-secondary);
+}
+#secondary-variant , .secondary-variant{
+    background: var(--s-secondary-variant);
+    color: var(--s-on-secondary);
+}
+#background , .background{
+    background: var(--s-background);
+    color: var(--s-on-background);
+}
+#surface , .surface{
+    background: var(--s-surface);
+    color: var(--s-on-surface);
+}
+#error , .error{
+    background: var(--s-error);
+    color: var(--s-on-error);
+}
+#on-primary , .on-primary{
+    background: var(--s-on-primary);
+    color: var(--s-primary);
+}
+#on-secondary , .on-secondary{
+    background: var(--s-on-secondary);
+    color: var(--s-secondary);
+}
+#on-background , .on-background{
+    background: var(--s-on-background);
+    color: var(--s-background);
+}
+#on-surface , .on-surface{
+    background: var(--s-on-surface);
+    color: var(--s-surface);
+}
+#on-error , .on-error{
+    background: var(--s-on-error);
+    color: var(--s-error);
+}
