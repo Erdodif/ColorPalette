@@ -1,4 +1,4 @@
-.szinek {
+#szinek {
     margin-inline:auto;
     width: min(max(30rem,50vw),100%);
     aspect-ratio: 3 / 2;
