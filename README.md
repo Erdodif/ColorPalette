@@ -3,7 +3,7 @@ This project one of the team work masterpieces which will be graded in a final e
 The idea is a quiz application on an android, a desktop and a web application.
 The web application sitting here was only one purpose, to show how different color palettes can make de desired user experience.
 Our final goal is to make sure, on all platforms, we can make a magnificent user experience.
-All aour steps are documented, hope that it serves our cause.
+All our steps are documented, hope that it serves our cause.
 This project is for educational purposes only!
 The main language is hungarian, respect that...
 
